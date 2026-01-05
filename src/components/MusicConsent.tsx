@@ -1,4 +1,3 @@
-import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Music, X, Volume2 } from "lucide-react";
 import { useAudio } from "../contexts/AudioContext";

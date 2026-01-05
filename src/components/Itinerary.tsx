@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, Clock, MapPin, Shirt } from "lucide-react";
 import { ItineraryEvent } from "../types";
