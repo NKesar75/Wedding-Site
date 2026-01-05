@@ -52,7 +52,7 @@ export function Media() {
               controls
             >
               {/* Placeholder video - replace with actual wedding video */}
-              <source src='/media/video/save-the-date.mp4' type='video/mp4' />
+              <source src='media/video/save-the-date.mp4' type='video/mp4' />
               Your browser does not support the video tag.
             </video>
 

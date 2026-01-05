@@ -35,7 +35,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     // Initialize audio element
-    audioRef.current = new Audio("/media/audio/English.mp3");
+    audioRef.current = new Audio("media/audio/English.mp3");
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
 
