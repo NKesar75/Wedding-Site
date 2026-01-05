@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hampton",
+    "name": "Hampton Inn Columbia I-26/Harbison Blvd.",
+    "distance": "3.2 miles from reception",
+    "priceRange": "",
+    "bookingLink": "https://www.hilton.com/en/hotels/caenwhx-hampton-columbia-i-26-harbison-blvd/?SEO_id=GMB-AMER-HX-CAENWHX&y_source=1_MjA4MTgxOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "amenities": [
+      "Free Breakfast",
+      "Pet Friendly",
+      "Fitness Center",
+      "Free WiFi"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "marriott",
+    "name": "TownePlace Suites by Marriott Columbia Northwest/Harbison",
+    "distance": "4.1 miles from reception",
+    "priceRange": "",
+    "bookingLink": "https://www.marriott.com/en-us/hotels/caetn-towneplace-suites-columbia-northwest-harbison/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+    "amenities": [
+      "Free Breakfast",
+      "Pet Friendly (1 Pet)",
+      "Fitness Center",
+      "Free WiFi"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "airbnb",
+    "name": "Air BnBs Search Filter",
+    "distance": "Close to reception",
+    "priceRange": "",
+    "bookingLink": "https://www.airbnb.com/s/5704-Bush-River-Rd--Columbia--SC-29212/homes?refinement_paths%5B%5D=%2Fhomes&place_id=ChIJZwrRDlyY-IgRJLAKU91IUZQ&acp_id=t-g-ChIJZwrRDlyY-IgRJLAKU91IUZQ&date_picker_type=calendar&checkin=2026-10-23&checkout=2026-10-25&search_type=filter_change&query=5704%20Bush%20River%20Rd%2C%20Columbia%2C%20SC%2029212&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-02-01&monthly_length=3&monthly_end_date=2026-05-01&search_mode=regular_search&price_filter_input_type=2&price_filter_num_nights=2&channel=EXPLORE&pets=1&selected_filter_order%5B%5D=pets%3A1&selected_filter_order%5B%5D=room_types%3AEntire%20home%2Fapt&update_selected_filters=true&room_types%5B%5D=Entire%20home%2Fapt&source=structured_search_input_header",
+    "amenities": [
+      "Entire Home",
+      "Pet Friendly"
+    ],
+    "rating": 4.4
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "amazon",
+    "name": "Amazon Registry",
+    "url": "https://amazon.com/wedding/registry",
+    "description": "Home essentials and everyday items",
+    "image": "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg"
+  },
+  {
+    "id": "zola",
+    "name": "Zola Registry",
+    "url": "https://zola.com/registry",
+    "description": "Curated home goods and experiences",
+    "image": "https://images.pexels.com/photos/6816869/pexels-photo-6816869.jpeg"
+  },
+  {
+    "id": "crate-barrel",
+    "name": "Crate & Barrel",
+    "url": "https://crateandbarrel.com/gift-registry",
+    "description": "Premium kitchenware and furniture",
+    "image": "https://images.pexels.com/photos/6969884/pexels-photo-6969884.jpeg"
+  }
+]

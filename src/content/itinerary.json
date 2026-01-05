@@ -1,0 +1,47 @@
+[
+  {
+    "id": "haldi",
+    "day": 1,
+    "title": "Haldi Ceremony",
+    "time": "12:00 AM - 2:00 PM",
+    "description": "Traditional turmeric ceremony with music and rituals",
+    "attire": "Clothes that can get stained, comfortable footwear",
+    "location": "The Venue at Velilla Acres"
+  },
+  {
+    "id": "mehndi",
+    "day": 1,
+    "title": "Mehndi Ceremony",
+    "time": "2:00 PM - 7:00 PM",
+    "description": "Traditional henna art ceremony with music and refreshments",
+    "attire": "Bright colors, comfortable clothing",
+    "location": "The Venue at Velilla Acres"
+  },
+  {
+    "id": "ceremony",
+    "day": 2,
+    "title": "Wedding Ceremony",
+    "time": "10:00 AM - 12:00 PM",
+    "description": "Traditional Hindu wedding ceremony with rituals and prayers",
+    "attire": "Modest clothing indian or western, no shoes inside the temple",
+    "location": "Hindu Temple & Cultural Center of South Carolina"
+  },
+  {
+    "id": "cocktailHour",
+    "day": 2,
+    "title": "Cocktail Hour",
+    "time": "4:00 PM - 5:00 PM",
+    "description": "Dinner, dancing, and celebration",
+    "attire": "Formal wear, Indian or Western",
+    "location": "The River Center at Saluda Shoals"
+  },
+  {
+    "id": "reception",
+    "day": 2,
+    "title": "Wedding Reception",
+    "time": "5:00 PM - 9:30 PM",
+    "description": "Dinner, dancing, and celebration",
+    "attire": "Formal wear, Indian or Western",
+    "location": "The River Center at Saluda Shoals"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Velilla_Acres",
+    "name": "The Venue at Velilla Acres",
+    "address": "1038 Old Number Six Hwy, St Matthews, SC 29135",
+    "type": "Haldi_Mehndi",
+    "coordinates": {
+      "lat": 33.635860950199195,
+      "lng": -80.70339999814462
+    },
+    "parkingNotes": "Free parking available.",
+    "attire": "Clothes that can get dirty, bright colors encouraged"
+  },
+  {
+    "id": "temple",
+    "name": "Hindu Temple & Cultural Center of South Carolina",
+    "address": "5704 Bush River Rd, Columbia, SC 29212",
+    "type": "ceremony",
+    "coordinates": {
+      "lat": 34.0579610760523,
+      "lng": -81.1882392806487
+    },
+    "parkingNotes": "Free parking available.",
+    "attire": "No shoes inside the temple, modest clothing recommended"
+  },
+  {
+    "id": "reception",
+    "name": "The River Center at Saluda Shoals",
+    "address": "5605 Bush River Rd, Columbia, SC 29212",
+    "type": "reception",
+    "coordinates": {
+      "lat": 34.05274396397814,
+      "lng": -81.18199195801483
+    },
+    "parkingNotes": "Free parking available.",
+    "attire": "Comfortable wear for dancing and socializing"
+  }
+]
