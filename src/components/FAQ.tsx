@@ -33,13 +33,6 @@ const faqData: FAQItem[] = [
     answer:
       "Haldi and Mehndi are traditional Indian pre-wedding ceremonies celebrating blessings, beauty, and new beginnings. Haldi brings good luck and glow, while Mehndi is filled with henna, music, and joyful festivities. We’re bringing both traditions together in one colorful, celebratory event!",
   },
-
-  //   {
-  //     id: 3,
-  //     question: "Are children welcome?",
-  //     answer:
-  //       "While we love your little ones, we've decided to make this an adults-only celebration. We hope this allows parents to relax and enjoy the evening!",
-  //   },
   //   {
   //     id: 4,
   //     question: "When is the RSVP deadline?",
@@ -79,7 +72,7 @@ const faqData: FAQItem[] = [
     id: 10,
     question: "Will there be an open bar?",
     answer:
-      "Yes! We'll have a full open bar with a selection of beer, wine, and cocktails throughout the reception and haldi/mehndi.",
+      "Yes! We'll have a full open bar with a selection of beer, wine, and cocktails throughout the events.",
   },
 ];
 
