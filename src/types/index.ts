@@ -4,7 +4,7 @@ export interface RSVPData {
   partySize: number;
   day1Attendance: boolean;
   day2Attendance: boolean;
-  dietary: 'none' | 'vegetarian' | 'nuts_allergy' | 'other';
+  dietary: "none" | "vegetarian" | "nuts_allergy" | "other";
   dietaryOther?: string;
   notes?: string;
 }
@@ -23,13 +23,13 @@ export interface Venue {
   id: string;
   name: string;
   address: string;
-  type: 'ceremony' | 'reception';
+  type: "ceremony" | "reception";
   coordinates: {
     lat: number;
     lng: number;
   };
   parkingNotes: string;
-  attire: string;
+  description: string;
 }
 
 export interface Hotel {

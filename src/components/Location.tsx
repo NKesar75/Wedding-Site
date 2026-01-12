@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Car, Navigation } from "lucide-react";
+import { MapPin, Car, Navigation, Info } from "lucide-react";
 import { Venue } from "../types";
 import venuesData from "../content/venues.json";
 
@@ -36,6 +36,14 @@ export function Location() {
               <Car className='w-4 h-4 text-cyan-600 mt-0.5' />
               <span>{venue.parkingNotes}</span>
             </div>
+            {venue.description && (
+              <div className='flex items-start gap-2 mt-3'>
+                <Info className='w-4 h-4 text-cyan-600 flex-shrink-0 mt-0.5' />
+                <p className='text-slate-700 dark:text-slate-300 leading-relaxed'>
+                  {venue.description}
+                </p>
+              </div>
+            )}
           </div>
           <a
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
