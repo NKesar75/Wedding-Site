@@ -2,37 +2,46 @@
   {
     "id": "haldi",
     "day": 1,
-    "title": "Haldi Ceremony",
-    "time": "12:00 AM - 2:00 PM",
-    "description": "Traditional turmeric ceremony with music and rituals",
-    "attire": "Clothes that can get stained, comfortable footwear",
+    "title": "Haldi Ceremony (Invitation Only)",
+    "time": "2:00 PM - 4:00 PM",
+    "description": "Traditional turmeric ceremony with music and rituals. The Henna and Mendi events will not have a change of attire between them, please dress for the full duration.",
+    "attire": "Clothes that can get stained, comfortable footwear.",
     "location": "The Venue at Velilla Acres"
   },
   {
     "id": "mehndi",
     "day": 1,
-    "title": "Mehndi Ceremony",
-    "time": "2:00 PM - 7:00 PM",
-    "description": "Traditional henna art ceremony with music and refreshments",
-    "attire": "Bright colors, comfortable clothing",
+    "title": "Mehndi Ceremony (Invitation Only)",
+    "time": "4:00 PM - 8:00 PM",
+    "description": "Traditional henna art ceremony with music and refreshments. The Henna and Mendi events will not have a change of attire between them, please dress for the full duration.",
+    "attire": "Bright colors, comfortable clothing.",
     "location": "The Venue at Velilla Acres"
+  },
+  {
+    "id": "baraat",
+    "day": 2,
+    "title": "Baraat - (Groom Side Only)",
+    "time": "7:30 AM",
+    "description": "Groom's procession to the wedding venue with music and dance. Attire examples can be found on the FAQ page.",
+    "attire": "Modest clothing indian or western.",
+    "location": "Groom's Residence"
   },
   {
     "id": "ceremony",
     "day": 2,
     "title": "Wedding Ceremony",
     "time": "10:00 AM - 12:00 PM",
-    "description": "Traditional Hindu wedding ceremony with rituals and prayers",
-    "attire": "Modest clothing indian or western, no shoes inside the temple",
-    "location": "Hindu Temple & Cultural Center of South Carolina"
+    "description": "Traditional Hindu wedding ceremony with rituals and prayers Attire examples can be found on the FAQ page.",
+    "attire": "Modest clothing indian or western.",
+    "location": "The River Center at Saluda Shoals"
   },
   {
     "id": "cocktailHour",
     "day": 2,
     "title": "Cocktail Hour",
     "time": "4:00 PM - 5:00 PM",
-    "description": "Dinner, dancing, and celebration",
-    "attire": "Formal wear, Indian or Western",
+    "description": "Cocktails and appetizers before the reception. ",
+    "attire": "Formal wear, Indian or Western.",
     "location": "The River Center at Saluda Shoals"
   },
   {
@@ -40,8 +49,8 @@
     "day": 2,
     "title": "Wedding Reception",
     "time": "5:00 PM - 9:30 PM",
-    "description": "Dinner, dancing, and celebration",
-    "attire": "Formal wear, Indian or Western",
+    "description": "Dinner, dancing, and celebration, Attire examples can be found on the FAQ page.",
+    "attire": "Formal wear, Indian or Western.",
     "location": "The River Center at Saluda Shoals"
   }
 ]

@@ -1,9 +1,30 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Play, Video } from "lucide-react";
+import { useAudio } from "../contexts/AudioContext";
 
 export function Media() {
   const [isPlaying, setIsPlaying] = useState(false);
+  const { isPlaying: isMusicPlaying, togglePlayback } = useAudio();
+  const wasMusicPlayingRef = useRef(false);
+
+  const handleVideoPlay = () => {
+    setIsPlaying(true);
+    // If music is playing, pause it and remember this state
+    if (isMusicPlaying) {
+      wasMusicPlayingRef.current = true;
+      togglePlayback();
+    }
+  };
+
+  const handleVideoPauseOrEnd = () => {
+    setIsPlaying(false);
+    // If music was playing before video started, resume it
+    if (wasMusicPlayingRef.current) {
+      togglePlayback();
+      wasMusicPlayingRef.current = false;
+    }
+  };
 
   const handlePlayPause = () => {
     const video = document.getElementById("wedding-video") as HTMLVideoElement;
@@ -47,8 +68,9 @@ export function Media() {
               className='w-full h-full object-cover'
               // TODO: Replace with actual wedding video
               poster='https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg'
-              onPlay={() => setIsPlaying(true)}
-              onPause={() => setIsPlaying(false)}
+              onPlay={handleVideoPlay}
+              onPause={handleVideoPauseOrEnd}
+              onEnded={handleVideoPauseOrEnd}
               controls
             >
               {/* Placeholder video - replace with actual wedding video */}

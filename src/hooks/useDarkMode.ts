@@ -2,15 +2,12 @@ import { useEffect } from "react";
 import { useLocalStorage } from "./useLocalStorage";
 
 export function useDarkMode() {
-  const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);
+  const [darkMode, setDarkMode] = useLocalStorage("darkMode", true);
 
   useEffect(() => {
-    // Check system preference on first load if no stored preference
+    // Force dark mode by default for all users
     if (!localStorage.getItem("darkMode")) {
-      const systemPrefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      setDarkMode(systemPrefersDark);
+      setDarkMode(true);
     }
   }, [setDarkMode]);
 

@@ -9,12 +9,10 @@ import React, {
 interface AudioContextType {
   hasRequestedConsent: boolean;
   isPlaying: boolean;
-  volume: number;
   requestConsent: () => void;
   togglePlayback: () => void;
   acceptedConsent: () => void;
   revokeConsent: () => void;
-  setVolume: (volume: number) => void;
 }
 
 const AudioContext = createContext<AudioContextType | undefined>(undefined);
@@ -30,14 +28,13 @@ export function useAudio() {
 export function AudioProvider({ children }: { children: React.ReactNode }) {
   const [hasRequestedConsent, setHasRequestedConsent] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [volume, setVolumeState] = useState(0.3);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     // Initialize audio element
     audioRef.current = new Audio("media/audio/English.mp3");
     audioRef.current.loop = true;
-    audioRef.current.volume = 0.3;
+    audioRef.current.volume = 1.0;
 
     return () => {
       if (audioRef.current) {
@@ -95,25 +92,15 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const setVolume = (newVolume: number) => {
-    const clampedVolume = Math.max(0, Math.min(1, newVolume));
-    setVolumeState(clampedVolume);
-    if (audioRef.current) {
-      audioRef.current.volume = clampedVolume;
-    }
-  };
-
   return (
     <AudioContext.Provider
       value={{
         isPlaying,
         hasRequestedConsent,
-        volume,
         requestConsent,
         togglePlayback,
         acceptedConsent,
         revokeConsent,
-        setVolume,
       }}
     >
       {children}

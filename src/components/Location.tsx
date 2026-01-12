@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Car, Navigation, Shirt } from "lucide-react";
+import { MapPin, Car, Navigation } from "lucide-react";
 import { Venue } from "../types";
 import venuesData from "../content/venues.json";
 
@@ -35,10 +35,6 @@ export function Location() {
             <div className='flex items-start gap-2'>
               <Car className='w-4 h-4 text-cyan-600 mt-0.5' />
               <span>{venue.parkingNotes}</span>
-            </div>
-            <div className='flex items-start gap-2'>
-              <Shirt className='w-4 h-4 text-cyan-600 mt-0.5' />
-              <span>{venue.attire}</span>
             </div>
           </div>
           <a

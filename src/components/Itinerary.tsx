@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, Clock, MapPin, Shirt } from "lucide-react";
+import { Calendar, Clock, MapPin, Shirt, Info } from "lucide-react";
 import { ItineraryEvent } from "../types";
 import itineraryData from "../content/itinerary.json";
 
@@ -37,9 +37,14 @@ export function Itinerary() {
               <span>{event.attire}</span>
             </div>
           </div>
-          <p className='mt-3 text-slate-700 dark:text-slate-300 leading-relaxed'>
-            {event.description}
-          </p>
+          {event.description && (
+            <div className='flex items-start gap-2 mt-3'>
+              <Info className='w-4 h-4 text-cyan-600 flex-shrink-0 mt-0.5' />
+              <p className='text-slate-700 dark:text-slate-300 leading-relaxed'>
+                {event.description}
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </motion.div>

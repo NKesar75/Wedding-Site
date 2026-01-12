@@ -1,4 +1,4 @@
-import { Music, VolumeX, Volume2, Heart } from "lucide-react";
+import { Music, VolumeX, Heart } from "lucide-react";
 // import { useDarkMode } from "../hooks/useDarkMode";
 import { useAudio } from "../contexts/AudioContext";
 
@@ -19,8 +19,7 @@ const navItems = [
 
 export function NavBar({ activeSection }: NavBarProps) {
   // const [darkMode, setDarkMode] = useDarkMode();
-  const { isPlaying, hasRequestedConsent, togglePlayback, volume, setVolume } =
-    useAudio();
+  const { isPlaying, hasRequestedConsent, togglePlayback } = useAudio();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -71,18 +70,6 @@ export function NavBar({ activeSection }: NavBarProps) {
                     <VolumeX className='w-5 h-5' />
                   )}
                 </button>
-                <div className='hidden md:flex items-center space-x-2 group'>
-                  <Volume2 className='w-4 h-4 text-slate-600 dark:text-slate-300' />
-                  <input
-                    type='range'
-                    min='0'
-                    max='100'
-                    value={volume * 100}
-                    onChange={(e) => setVolume(Number(e.target.value) / 100)}
-                    className='w-20 h-1 bg-slate-300 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-600'
-                    aria-label='Volume control'
-                  />
-                </div>
               </>
             )}
             {/* <button

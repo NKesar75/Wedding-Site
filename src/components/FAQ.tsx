@@ -11,6 +11,12 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     id: 1,
+    question: "What does invitation only mean?",
+    answer:
+      "Some events are marked as “Invitation Only” due to limited space and to keep the gathering intimate for close family and friends. If you received an invitation to these events, we would be honored to have you join us. If not, we can't wait to celebrate together at the main wedding festivities!",
+  },
+  {
+    id: 2,
     question: "What is the dress code?",
     answer:
       "Suggested attire is listed for each event. There's no formal dress code. Dress comfortably, look your best, and have fun with color and style!",
