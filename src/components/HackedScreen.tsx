@@ -80,7 +80,7 @@ export function HackedScreen() {
         </div>
 
         {/* Main content */}
-        <div className='relative z-10 flex flex-col items-center justify-center min-h-screen p-8'>
+        <div className='relative z-10 flex flex-col items-center justify-center min-h-screen p-4 md:p-8'>
           {/* Skull icon with glitch effect */}
           <motion.div
             animate={{
@@ -92,18 +92,18 @@ export function HackedScreen() {
               repeat: Infinity,
               repeatType: "reverse",
             }}
-            className='mb-4 md:mb-8'
+            className='mb-2 md:mb-8'
           >
-            <Skull className='w-12 h-12 md:w-20 md:h-20 text-red-500' />
+            <Skull className='w-10 h-10 md:w-20 md:h-20 text-red-500' />
           </motion.div>
 
           {/* Warning header */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className='text-center mb-4 md:mb-8'
+            className='text-center mb-3 md:mb-8'
           >
-            <div className='flex items-center justify-center gap-1 md:gap-2 mb-2 md:mb-4'>
+            <div className='flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-4'>
               <AlertTriangle className='w-5 h-5 md:w-8 md:h-8 text-red-500 animate-pulse' />
               <h1 className='text-lg md:text-2xl lg:text-4xl font-bold text-red-500 animate-pulse'>
                 SYSTEM COMPROMISED
@@ -120,7 +120,7 @@ export function HackedScreen() {
           </motion.div>
 
           {/* Terminal output */}
-          <div className='bg-black/80 border-2 border-green-400 rounded-lg p-3 md:p-6 w-full max-w-2xl mx-4'>
+          <div className='bg-black/80 border-2 border-green-400 rounded-lg p-2 md:p-6 w-full max-w-2xl mx-4'>
             <div className='flex items-center gap-1 md:gap-2 mb-2 md:mb-4 border-b border-green-400 pb-2'>
               <div className='w-2 h-2 md:w-3 md:h-3 bg-red-500 rounded-full'></div>
               <div className='w-2 h-2 md:w-3 md:h-3 bg-yellow-500 rounded-full'></div>
@@ -165,7 +165,7 @@ export function HackedScreen() {
 
           {/* Progress bar */}
           {currentLine < hackedLines.length - 3 && (
-            <div className='mt-4 md:mt-8 w-full max-w-md mx-4'>
+            <div className='mt-3 md:mt-8 w-full max-w-md mx-4'>
               <div className='flex justify-between text-xs md:text-sm mb-1 md:mb-2'>
                 <span>Hacking Progress:</span>
                 <span>
@@ -200,7 +200,7 @@ export function HackedScreen() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 onClick={handleSkip}
-                className='mt-4 md:mt-8 px-4 py-2 md:px-6 md:py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm md:text-base font-semibold transition-colors border-2 border-red-400 hover:border-red-300'
+                className='mt-3 md:mt-8 px-4 py-2 md:px-6 md:py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm md:text-base font-semibold transition-colors border-2 border-red-400 hover:border-red-300'
               >
                 <span className='hidden md:inline'>
                   Skip Hack (Click Anywhere)
@@ -236,7 +236,7 @@ export function HackedScreen() {
         </div>
 
         {/* Bottom warning */}
-        <div className='absolute bottom-4 left-0 right-0 text-center px-4'>
+        <div className='absolute bottom-2 md:bottom-4 left-0 right-0 text-center px-4'>
           <motion.p
             animate={{ opacity: [0.5, 1, 0.5] }}
             transition={{ duration: 2, repeat: Infinity }}
