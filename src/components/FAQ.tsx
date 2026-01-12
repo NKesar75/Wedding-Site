@@ -29,7 +29,7 @@ const faqData: FAQItem[] = [
   //   },
   {
     id: 3,
-    question: "What is the haldi/mendi ceremonies?",
+    question: "What is the haldi/mehndi ceremonies?",
     answer:
       "Haldi and Mehndi are traditional Indian pre-wedding ceremonies celebrating blessings, beauty, and new beginnings. Haldi brings good luck and glow, while Mehndi is filled with henna, music, and joyful festivities. We’re bringing both traditions together in one colorful, celebratory event!",
   },
@@ -67,7 +67,7 @@ const faqData: FAQItem[] = [
     id: 8,
     question: "Are there vegetarian/vegan meal options?",
     answer:
-      "All food will be vegetarian to accommodate all guests' preferences and dietary needs If you have specific dietary restrictions, please let us know when you RSVP or message us directly.",
+      "All food will be vegetarian to accommodate all guests' preferences and dietary needs. If you have specific dietary restrictions, please let us know when you RSVP or message us directly.",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ const faqData: FAQItem[] = [
     id: 10,
     question: "Will there be an open bar?",
     answer:
-      "Yes! We'll have a full open bar with a selection of beer, wine, and cocktails throughout the reception and haldi/mendhi.",
+      "Yes! We'll have a full open bar with a selection of beer, wine, and cocktails throughout the reception and haldi/mehndi.",
   },
 ];
 

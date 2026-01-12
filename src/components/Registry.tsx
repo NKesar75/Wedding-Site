@@ -88,7 +88,7 @@ export function Registry() {
             everything we do. Your guidance, laughter, patience, and unwavering
             support have carried us through every season, and we feel so lucky
             to be surrounded by such an incredible community. This celebration
-            is not just about us it's about the love, memories, and connections
+            is not just about us, it's about the love, memories, and connections
             we share with all of you. Thank you for being part of our journey,
             for standing beside us through every high and low, and for filling
             our lives with so much love. We are honored to share this moment
