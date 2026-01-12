@@ -18,11 +18,20 @@
     "location": "The Venue at Velilla Acres"
   },
   {
+    "id": "Sehrabandi",
+    "day": 2,
+    "title": "Sehrabandi - (Groom Side Only)",
+    "time": "7:30 AM",
+    "description": "Traditional Sehrabandi ceremony at the groom's residence. Attire examples can be found on the FAQ page.",
+    "attire": "Modest clothing indian or western.",
+    "location": "Groom's Residence"
+  },
+  {
     "id": "baraat",
     "day": 2,
-    "title": "Baraat - (Groom Side Only)",
-    "time": "7:30 AM",
-    "description": "Groom's procession to the wedding venue with music and dance. Attire examples can be found on the FAQ page.",
+    "title": "Baraat Departure - (Groom Side Only)",
+    "time": "9:00 AM",
+    "description": "Groom's procession departure from the groom's residence. Attire examples can be found on the FAQ page.",
     "attire": "Modest clothing indian or western.",
     "location": "Groom's Residence"
   },
