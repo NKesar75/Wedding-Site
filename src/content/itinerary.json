@@ -18,22 +18,22 @@
     "location": "The Venue at Velilla Acres"
   },
   {
-    "id": "Sehrabandi",
-    "day": 2,
-    "title": "Sehra Bandi - (Groom Side Only)",
-    "time": "7:30 AM",
-    "description": "Traditional Sehrabandi ceremony at the groom's residence. Attire examples can be found on the FAQ page.",
-    "attire": "Modest clothing indian or western.",
-    "location": "Groom's Residence"
-  },
-  {
     "id": "baraat",
     "day": 2,
-    "title": "Baraat Departure - (Groom Side Only)",
+    "title": "Baraat - (Groom Side Only)",
     "time": "9:00 AM",
-    "description": "Groom's procession departure from the groom's residence. Attire examples can be found on the FAQ page.",
+    "description": "The groom's arrival with music, dancing, and lots of excitement. Attire examples can be found on the FAQ page.",
     "attire": "Modest clothing indian or western.",
-    "location": "Groom's Residence"
+    "location": "The River Center at Saluda Shoals"
+  },
+  {
+    "id": "baraatArrival",
+    "day": 2,
+    "title": "Baraat Arrival",
+    "time": "9:30 AM",
+    "description": "The groom and his family arrive in a festive procession and are welcomed by the bride’s family. This moment symbolizes the joyful union of two families and the start of the wedding ceremony.",
+    "attire": "Modest clothing indian or western.",
+    "location": "The River Center at Saluda Shoals"
   },
   {
     "id": "ceremony",
