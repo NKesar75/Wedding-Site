@@ -67,7 +67,7 @@ export function Media() {
               id='wedding-video'
               className='w-full h-full object-cover'
               // TODO: Replace with actual wedding video
-              poster='https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg'
+              poster='media/image/saveTheDatePoster.png'
               onPlay={handleVideoPlay}
               onPause={handleVideoPauseOrEnd}
               onEnded={handleVideoPauseOrEnd}

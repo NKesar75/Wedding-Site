@@ -6,6 +6,11 @@ interface FAQItem {
   id: number;
   question: string;
   answer: string;
+  images?: {
+    src: string;
+    alt: string;
+    caption?: string;
+  }[];
 }
 
 const faqData: FAQItem[] = [
@@ -19,7 +24,39 @@ const faqData: FAQItem[] = [
     id: 2,
     question: "What is the dress code?",
     answer:
-      "Suggested attire is listed for each event. There's no formal dress code. Dress comfortably, look your best, and have fun with color and style!",
+      "There is no formal dress code for our wedding events. We want you to feel comfortable, confident, and yourself. " +
+      "For many guests, this may be their first Indian wedding. If you're interested in wearing Indian attire, you're more than welcome to do so! " +
+      "Some common outfit styles include sarees, lehengas, and kurtas " +
+      "That said, Indian attire is completely optional — you are absolutely not required to wear it. " +
+      "Suggested attire is listed for each event in the itinerary/events section." +
+      "Most importantly, have fun with color and style and come ready to celebrate with us!",
+    images: [
+      {
+        src: "media/image/lehenga.png",
+        alt: "Example dress code attire for female wearing a lehenga",
+        caption: "Sample attire inspiration for female wearing a lehenga",
+      },
+      {
+        src: "media/image/lehenga2.png",
+        alt: "Example dress code attire for female wearing a lehenga",
+        caption: "Sample attire inspiration for female wearing a lehenga",
+      },
+      {
+        src: "media/image/sari.png",
+        alt: "Example dress code attire for female wearing a sari",
+        caption: "Sample attire inspiration for female wearing a sari",
+      },
+      {
+        src: "media/image/kurtaSet1.png",
+        alt: "Example dress code attire for male wearing kurta",
+        caption: "Sample attire inspiration for male wearing kurta",
+      },
+      {
+        src: "media/image/kurtaSet2.png",
+        alt: "Example dress code attire for male wearing kurta",
+        caption: "Sample attire inspiration for male wearing kurta",
+      },
+    ],
   },
   //   {
   //     id: 2,
@@ -135,6 +172,28 @@ export function FAQ() {
                     >
                       <div className='px-6 pb-4 pt-2 text-slate-600 dark:text-slate-300 leading-relaxed'>
                         {faq.answer}
+
+                        {faq.images && faq.images.length > 0 && (
+                          <div
+                            className={`mt-4 grid gap-4 ${faq.images.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2"}`}
+                          >
+                            {faq.images.map((image, index) => (
+                              <div key={index} className='space-y-2'>
+                                <img
+                                  src={image.src}
+                                  alt={image.alt}
+                                  className='w-full h-auto rounded-lg shadow-md object-cover'
+                                  loading='lazy'
+                                />
+                                {image.caption && (
+                                  <p className='text-sm text-slate-500 dark:text-slate-400 text-center italic'>
+                                    {image.caption}
+                                  </p>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </motion.div>
                   )}

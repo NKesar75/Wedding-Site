@@ -15,8 +15,7 @@ export function Home() {
       <div
         className='absolute inset-0 bg-gradient-to-br from-cyan-50 via-teal-50 to-emerald-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900'
         style={{
-          // TODO: Replace with a more personal image
-          backgroundImage: `url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg')`,
+          backgroundImage: "url(media/image/homeBackground.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundBlendMode: "overlay",
