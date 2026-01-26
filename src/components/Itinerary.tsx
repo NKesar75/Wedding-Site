@@ -32,10 +32,12 @@ export function Itinerary() {
               <MapPin className='w-4 h-4 text-cyan-600' />
               <span>{event.location}</span>
             </div>
-            <div className='flex items-center gap-2'>
-              <Shirt className='w-4 h-4 text-cyan-600' />
-              <span>{event.attire}</span>
-            </div>
+            {event.attire ? (
+              <div className='flex items-center gap-2'>
+                <Shirt className='w-4 h-4 text-cyan-600' />
+                <span>{event.attire}</span>
+              </div>
+            ) : null}
           </div>
           {event.description && (
             <div className='flex items-start gap-2 mt-3'>
