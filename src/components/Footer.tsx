@@ -60,10 +60,6 @@ export function Footer() {
             <p className='text-sm text-slate-400'>
               © 2026 Naja & Nilesh Wedding Website. All rights reserved.
             </p>
-            <p className='text-xs text-slate-500 mt-2'>
-              This website respects your privacy. We only store your music
-              preference locally.
-            </p>
           </div>
         </div>
       </div>
