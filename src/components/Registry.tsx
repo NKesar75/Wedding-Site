@@ -58,8 +58,8 @@ export function Registry() {
           </h2>
           <p className='text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto'>
             Your presence at our celebration is truly all we ask for, and we are
-            not expecting any gifts. If you do choose to give, a card and gift
-            box will be available at the reception.
+            not expecting any gifts. If you do choose to give, a card box will
+            be available at the reception.
           </p>
         </motion.div>
 

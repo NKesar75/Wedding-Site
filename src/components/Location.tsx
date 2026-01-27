@@ -47,7 +47,7 @@ export function Location() {
           </div>
           <a
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-              venue.address
+              venue.address,
             )}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -123,7 +123,8 @@ export function Location() {
               <h4 className='font-semibold mb-2'>Transportation</h4>
               <p>
                 Uber and Lyft are readily available throughout Columbia. Taxi
-                services are also available.
+                services are also available, and rental cars can be booked from
+                the Columbia or Charlotte airports if preferred.
               </p>
             </div>
             <div>

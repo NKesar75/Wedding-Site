@@ -4,7 +4,7 @@
     "day": 1,
     "title": "Haldi Ceremony (Invitation Only)",
     "time": "2:00 PM - 4:00 PM",
-    "description": "Traditional turmeric ceremony with music and rituals. The Henna and Mendi events will not have a change of attire between them, please dress for the full duration.",
+    "description": "Traditional turmeric ceremony with music and rituals. The Haldi & Mehndi events will not have a change of attire between them, please dress for the full duration.",
     "attire": "Clothes you're comfortable in (and okay if they get stained!) and choose comfortable footwear.",
     "location": "The Venue at Velilla Acres"
   },
@@ -13,8 +13,7 @@
     "day": 1,
     "title": "Mehndi Ceremony (Invitation Only)",
     "time": "4:00 PM - 8:00 PM",
-    "description": "Traditional henna art ceremony with music and refreshments. The Henna and Mendi events will not have a change of attire between them, please dress for the full duration.",
-    "attire": "Bright colors, comfortable clothing.",
+    "description": "Traditional henna art ceremony with music and food. The Haldi & Mehndi events will not have a change of attire between them, please dress for the full duration.",
     "location": "The Venue at Velilla Acres"
   },
   {
@@ -22,7 +21,7 @@
     "day": 2,
     "title": "Baraat - (Groom Side Only)",
     "time": "9:00 AM",
-    "description": "The groom's arrival with music, dancing, and lots of excitement. Attire examples can be found on the FAQ page.",
+    "description": "The groom's arrival with music, dancing, and lots of excitement.",
     "location": "The River Center at Saluda Shoals"
   },
   {
@@ -38,8 +37,8 @@
     "day": 2,
     "title": "Wedding Ceremony",
     "time": "10:00 AM - 12:00 PM",
-    "description": "Traditional Hindu wedding ceremony with rituals and prayers Attire examples can be found on the FAQ page.",
-    "attire": "Modest clothing Indian or western. Please do not wear red or white.",
+    "description": "Traditional Hindu wedding ceremony with rituals and prayers. Indian attire examples can be found on the FAQ page.",
+    "attire": "Modest clothing, Indian or cocktail attire. Please do not wear red or white.",
     "location": "The River Center at Saluda Shoals"
   },
   {
@@ -47,8 +46,8 @@
     "day": 2,
     "title": "Cocktail Hour",
     "time": "4:00 PM - 5:00 PM",
-    "description": "Cocktails and appetizers before the reception. ",
-    "attire": "Formal wear, Indian or Western.",
+    "description": "Cocktails and appetizers before the reception.",
+    "attire": "Indian or cocktail attire.",
     "location": "The River Center at Saluda Shoals"
   },
   {
@@ -56,8 +55,7 @@
     "day": 2,
     "title": "Wedding Reception",
     "time": "5:00 PM - 9:30 PM",
-    "description": "Dinner, dancing, and celebration, Attire examples can be found on the FAQ page.",
-    "attire": "Formal wear, Indian or Western.",
+    "description": "Dinner, dancing, and celebration. Indian attire examples can be found on the FAQ page.",
     "location": "The River Center at Saluda Shoals"
   }
 ]

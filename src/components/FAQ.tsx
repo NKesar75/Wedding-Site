@@ -28,7 +28,7 @@ const faqData: FAQItem[] = [
       "For many guests, this may be their first Indian wedding. If you're interested in wearing Indian attire, you're more than welcome to do so! " +
       "Some common outfit styles include sarees, lehengas, and kurtas " +
       "That said, Indian attire is completely optional — you are absolutely not required to wear it. " +
-      "Suggested attire is listed for each event in the itinerary/events section." +
+      "Suggested attire is listed for each event in the itinerary/events section. " +
       "Most importantly, have fun with color and style and come ready to celebrate with us!",
     images: [
       {

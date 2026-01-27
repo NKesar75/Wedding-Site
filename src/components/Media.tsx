@@ -109,29 +109,20 @@ export function Media() {
                 {/* Add your engagement story here */}
                 What began with a simple "hello" in Orlando turned into a love
                 story years in the making. Naja and Nilesh met at Full Sail
-                University in 2016 and quickly became inseparable studying,
-                laughing, supporting each other, and slowly building a life
-                together. Along the way, their little family grew: first Chop,
-                the fiery kitten from Tampa, then Cuz finally joining them from
-                South Carolina, and later Casper, who literally cried until he
-                was welcomed into their hearts. Life took them from college
-                graduates to building careers and a home in Atlanta, always side
-                by side, always choosing each other. In October 2024, surrounded
-                by spooky Halloween vibes, ring pop humor, sticky notes, and
-                Casper stealing one of the proposal letters, Nilesh asked Naja
-                to marry him. She said yes laughing, crying, and full of love.
-                Now they're ready for the next chapter, together forever.
+                University in 2016 and quickly became inseparable. They went
+                from studying, laughing, supporting each other, to slowly
+                building a life together. Along the way, their little family
+                grew: first Chop, the fiery kitten from Tampa, then Cuz finally
+                joining them from South Carolina, and later Casper, who
+                literally cried until he was welcomed into their hearts. Life
+                took them from college graduates to building careers and a home
+                in Atlanta, always side by side, always choosing each other. In
+                October 2024, surrounded by spooky Halloween vibes, ring pop
+                humor, sticky notes, and Casper stealing one of the proposal
+                letters, Nilesh asked Naja to marry him. She said yes laughing,
+                crying, and full of love. Now they're ready for the next
+                chapter, together forever.
               </p>
-              {/* <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6'>
-                On [engagement date], in a beautiful setting at [location],
-                Nilesh asked Naja to be his forever partner. Surrounded by
-                [family/friends/nature], it was a moment we'll cherish for the
-                rest of our lives.
-              </p>
-              <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed'>
-                Now, we're excited to celebrate our love with all of you as we
-                embark on this new chapter together.
-              </p> */}
             </div>
           </div>
         </motion.div>
