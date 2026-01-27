@@ -66,9 +66,9 @@ const faqData: FAQItem[] = [
   //   },
   {
     id: 3,
-    question: "What is the haldi/mehndi ceremonies?",
+    question: "What are the haldi & mehndi ceremonies?",
     answer:
-      "Haldi and Mehndi are traditional Indian pre-wedding ceremonies celebrating blessings, beauty, and new beginnings. Haldi brings good luck and glow, while Mehndi is filled with henna, music, and joyful festivities. We’re bringing both traditions together in one colorful, celebratory event!",
+      "Haldi and Mehndi are traditional Indian pre-wedding ceremonies that celebrate blessings, beauty, and new beginnings. During Haldi, family members apply turmeric to the bride and groom for good luck and a natural glow. Mehndi is a joyful celebration where henna is applied to women; participation is completely optional, and guests may choose whether or not to have henna done. The event is filled with music and vibrant festivities. We're bringing both traditions together into one colorful, celebratory event!",
   },
   //   {
   //     id: 4,
