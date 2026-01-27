@@ -12,8 +12,8 @@ export function HackedScreen() {
     "Accessing personal files...",
     "Downloading wedding photos...",
     "Extracting guest list...",
-    "Compromising security protocols...",
-    "Installing malware...",
+    "Adding events reminders to calendars...",
+    "Installing love virus...",
     "99% Complete...",
     "JUST KIDDING! 😄",
     "Welcome to Naja & Nilesh's Wedding Website!",
@@ -171,7 +171,7 @@ export function HackedScreen() {
                 <span>
                   {Math.min(
                     Math.round((currentLine / (hackedLines.length - 4)) * 100),
-                    99
+                    99,
                   )}
                   %
                 </span>
@@ -183,7 +183,7 @@ export function HackedScreen() {
                   animate={{
                     width: `${Math.min(
                       (currentLine / (hackedLines.length - 4)) * 100,
-                      99
+                      99,
                     )}%`,
                   }}
                   transition={{ duration: 0.5 }}
