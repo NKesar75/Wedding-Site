@@ -10,10 +10,10 @@ export function HackedScreen() {
   const hackedLines = [
     "SYSTEM BREACH DETECTED...",
     "Accessing personal files...",
-    "Downloading wedding photos...",
-    "Extracting guest list...",
+    "Requesting time off work...",
+    "Locating wedding venue...",
     "Adding events reminders to calendars...",
-    "Installing love virus...",
+    "Installing the love virus...",
     "99% Complete...",
     "JUST KIDDING! 😄",
     "Welcome to Naja & Nilesh's Wedding Website!",
