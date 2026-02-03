@@ -11,6 +11,10 @@ interface FAQItem {
     alt: string;
     caption?: string;
   }[];
+  links?: {
+    label: string;
+    url: string;
+  }[];
 }
 
 const faqData: FAQItem[] = [
@@ -55,6 +59,28 @@ const faqData: FAQItem[] = [
         src: "media/image/kurtaSet2.png",
         alt: "Example dress code attire for male wearing kurta",
         caption: "Sample attire inspiration for male wearing kurta",
+      },
+    ],
+    links: [
+      {
+        label: "Inddus",
+        url: "https://www.inddus.com/",
+      },
+      {
+        label: "House of Chikankari",
+        url: "https://www.houseofchikankari.in/collections/new-arrivals",
+      },
+      {
+        label: "The Saree Room",
+        url: "https://www.thesareeroom.com/en-us",
+      },
+      {
+        label: "Kalki Fashion",
+        url: "https://www.kalkifashion.com/",
+      },
+      {
+        label: "Simran Exclusive",
+        url: "https://www.simranexclusive.com/",
       },
     ],
   },
@@ -192,6 +218,42 @@ export function FAQ() {
                                 )}
                               </div>
                             ))}
+                          </div>
+                        )}
+
+                        {faq.links && faq.links.length > 0 && (
+                          <div className='mt-6'>
+                            <h4 className='text-base font-semibold text-slate-900 dark:text-white mb-3'>
+                              Where to buy attire:
+                            </h4>
+                            <p className='text-xs text-slate-500 dark:text-slate-400 mb-3'>
+                              We haven't personally purchased from these sites.
+                              We reviewed public ratings and feedback, but
+                              please use your best judgment and practice safe
+                              online shopping.
+                            </p>
+                            <ul className='space-y-2'>
+                              {faq.links.map((link, index) => (
+                                <li
+                                  key={`${link.label}-${index}`}
+                                  className='flex items-center justify-between gap-3'
+                                >
+                                  <div className='text-sm text-slate-600 dark:text-slate-300 min-w-0'>
+                                    <span className='font-medium text-slate-900 dark:text-white'>
+                                      {link.label}
+                                    </span>
+                                  </div>
+                                  <a
+                                    href={link.url}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className='text-sm text-cyan-600 hover:text-cyan-700 dark:text-cyan-400 dark:hover:text-cyan-300 font-medium'
+                                  >
+                                    Visit site
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         )}
                       </div>
