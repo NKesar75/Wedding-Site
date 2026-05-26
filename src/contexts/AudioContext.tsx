@@ -25,8 +25,18 @@ export function useAudio() {
   return context;
 }
 
-export function AudioProvider({ children }: { children: React.ReactNode }) {
-  const [hasRequestedConsent, setHasRequestedConsent] = useState(false);
+interface AudioProviderProps {
+  children: React.ReactNode;
+  defaultConsentResolved?: boolean;
+}
+
+export function AudioProvider({
+  children,
+  defaultConsentResolved = false,
+}: AudioProviderProps) {
+  const [hasRequestedConsent, setHasRequestedConsent] = useState(
+    defaultConsentResolved,
+  );
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 

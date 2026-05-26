@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { HackedScreen } from "./components/HackedScreen";
@@ -15,6 +15,10 @@ import { MusicConsent } from "./components/MusicConsent";
 import { SkipToContent } from "./components/SkipToContent";
 import { AudioProvider } from "./contexts/AudioContext";
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
+
+const ENABLE_HACKED_SCREEN = false;
+const ENABLE_MUSIC_CONSENT = false;
+const MUSIC_CONSENT_DELAY_MS = ENABLE_HACKED_SCREEN ? 3000 : 800;
 
 function AppContent() {
   const homeRef = useRef<HTMLDivElement>(null);
@@ -38,13 +42,24 @@ function AppContent() {
   ];
 
   const activeSection = useIntersectionObserver(sectionRefs);
+  const [showMusicConsent, setShowMusicConsent] = useState(false);
+
+  useEffect(() => {
+    if (!ENABLE_MUSIC_CONSENT) return;
+
+    const timer = setTimeout(
+      () => setShowMusicConsent(true),
+      MUSIC_CONSENT_DELAY_MS,
+    );
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className='min-h-screen bg-white dark:bg-slate-900'>
       <SkipToContent />
-      <HackedScreen />
+      {ENABLE_HACKED_SCREEN && <HackedScreen />}
       <NavBar activeSection={activeSection} />
-      <MusicConsent />
+      {ENABLE_MUSIC_CONSENT && showMusicConsent && <MusicConsent />}
 
       <main id='main-content'>
         <div ref={homeRef}>
@@ -80,7 +95,7 @@ function AppContent() {
 
 function App() {
   return (
-    <AudioProvider>
+    <AudioProvider defaultConsentResolved={!ENABLE_MUSIC_CONSENT}>
       <Router>
         <AppContent />
       </Router>

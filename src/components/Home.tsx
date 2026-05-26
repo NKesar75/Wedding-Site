@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Heart } from "lucide-react";
+import { Calendar, MapPin, Heart, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Home() {
@@ -52,19 +52,22 @@ export function Home() {
             </div>
 
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
-              {/* TODO: add this back when RSVP is ready */}
-              {/* <button
-                onClick={() => scrollToSection("rsvp")}
-                className='bg-gradient-to-r from-cyan-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-cyan-700 hover:to-teal-700 transform hover:scale-105 transition-all duration-200 shadow-lg'
-              >
-                RSVP Now
-              </button> */}
               <button
                 onClick={() => scrollToSection("itinerary")}
                 className='border-2 border-cyan-600 text-cyan-600 dark:text-cyan-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-cyan-600 hover:text-white transform hover:scale-105 transition-all duration-200'
               >
                 View Schedule
               </button>
+
+              <a
+                href='https://www.theknot.com/us/nilesh-kesar-and-naja-lopez-oct-2026/rsvp'
+                target='_blank'
+                rel='noreferrer'
+                className='bg-gradient-to-r from-cyan-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-cyan-700 hover:to-teal-700 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center gap-2'
+              >
+                RSVP
+                <ExternalLink className='w-5 h-5' />
+              </a>
             </div>
           </motion.div>
         </div>

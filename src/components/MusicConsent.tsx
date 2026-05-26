@@ -31,9 +31,9 @@ export function MusicConsent() {
             </h2>
 
             <p className='text-slate-600 dark:text-slate-300 mb-8 leading-relaxed'>
-              We've prepared some beautiful traditional Punjabi music to enhance
-              your experience. Would you like to play soft background music
-              while you explore our wedding website?
+              We've prepared some music to enhance your experience. Would you
+              like to play soft background music while you explore our wedding
+              website?
             </p>
 
             <div className='flex flex-col sm:flex-row gap-3'>
