@@ -59,15 +59,15 @@ export function Home() {
                 View Schedule
               </button>
 
-              <a
+              {/* <a
                 href='https://www.theknot.com/us/nilesh-kesar-and-naja-lopez-oct-2026/rsvp'
                 target='_blank'
                 rel='noreferrer'
-                className='bg-gradient-to-r from-cyan-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-cyan-700 hover:to-teal-700 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center gap-2'
+                className='bg-cyan-600 bg-gradient-to-r from-cyan-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-cyan-700 hover:from-cyan-700 hover:to-teal-700 transform hover:scale-105 transition-all duration-200 shadow-lg flex items-center justify-center gap-2'
               >
                 RSVP
                 <ExternalLink className='w-5 h-5' />
-              </a>
+              </a> */}
             </div>
           </motion.div>
         </div>
